@@ -1,0 +1,11 @@
+<launch>
+
+  
+
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find ros_pa3)/include/config.rviz" />
+
+  <node type="Kakarot.py" name="Kakarot" pkg="ros_pa3" args="$(find ros_pa3)/src/grid.bag" output="screen"/>
+
+  
+
+</launch>

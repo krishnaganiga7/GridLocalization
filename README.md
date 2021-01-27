@@ -1,4 +1,4 @@
-# GridLocalization
+# Grid Localization
 CSE 568 Programming Assignment
 
 Grid Localization using Bayes filter is a variant of Discrete Bayes Localization. 
